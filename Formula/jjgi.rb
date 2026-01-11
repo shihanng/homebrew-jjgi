@@ -1,25 +1,25 @@
 class Jjgi < Formula
   desc "A linter/formatter wrapper for jj fix"
   homepage "https://github.com/shihanng/jjgi"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/shihanng/jjgi/releases/download/v0.3.0/jjgi-aarch64-apple-darwin.tar.xz"
-      sha256 "a1943d3c2c2ba9af7cc873a9c488bc6b3eb81d03e562865cfa81fdba95a68435"
+      url "https://github.com/shihanng/jjgi/releases/download/v0.4.0/jjgi-aarch64-apple-darwin.tar.xz"
+      sha256 "7b67e51138edfc95618d461e816d5b106a80997ed6f82b8d09ba39484ff2f27d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shihanng/jjgi/releases/download/v0.3.0/jjgi-x86_64-apple-darwin.tar.xz"
-      sha256 "8e4fe9a9278dfa2e00be993a438bb91ad2ba1d795221b7bf0012aeb120972daa"
+      url "https://github.com/shihanng/jjgi/releases/download/v0.4.0/jjgi-x86_64-apple-darwin.tar.xz"
+      sha256 "427ebf4a4c10d332af01a0bdb5c6a1a98b2cf43be711e95f1e0774a34b1e3f41"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/shihanng/jjgi/releases/download/v0.3.0/jjgi-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "06fcb7da1d50067c0bed8fdee786f218108b9f4cc575e32c9e621cfc93abcd57"
+      url "https://github.com/shihanng/jjgi/releases/download/v0.4.0/jjgi-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1ec1093e61d8deaefaa1ba41e8640888e5239fd287ffd7d557058a30d6b03a13"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shihanng/jjgi/releases/download/v0.3.0/jjgi-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a63b7b59c7a20f757688abf63526e23e7ed18d956f11b5a564637a1bd1935340"
+      url "https://github.com/shihanng/jjgi/releases/download/v0.4.0/jjgi-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "7fde565c6f80a94a7cc53820cf3ae6fc1bc81ace30eedf7279215321a6a9042b"
     end
   end
   license "MIT"
